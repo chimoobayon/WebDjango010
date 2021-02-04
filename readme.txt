@@ -1,4 +1,8 @@
+Este código se corresponde con el generado por el tutoríal:
+
 https://docs.djangoproject.com/es/3.1/intro/tutorial01/
+
+Incluye una guía paso a pasos que seguí, inlcuyendo la instalación de Python y Django:
 
 ===============================
 ACCESSO VIA Visual Studio
@@ -54,7 +58,7 @@ python manage.py startapp polls			--> Crea aplicacion "polls" dentro del proyect
 
 python manage.py shell 				--> Permite a través de comando acceder a la base de datos (es una api de acceso).
 
-pip install pylint-django			--> Me daba un error de que la clase Question no tenía objetos.
+pip install pylint-django			--> Me daba un error de que la clase Question no tenía objetos --> No hacer caso es solo un warning
 
 http://127.0.0.1:8000/admin/polls/question/
 http://127.0.0.1:8000/polls/
@@ -63,10 +67,7 @@ http://127.0.0.1:8000/polls/detail/
 
 pip freeze > requirements.txt
 
->>>> ME QUEDE AQUI:
-https://docs.djangoproject.com/es/3.1/intro/tutorial04/
-
-NOTA: (No recuendo como era esto-->Interesante crear un JSON Python + DJANGO para "Run & Debug" --> Se hace en el icono debug de VScode
+Interesante crear un JSON Python + DJANGO para "Run & Debug" --> Se hace en el icono debug de VScode
 
 ------------------------------------------------------------------------------------------
 
